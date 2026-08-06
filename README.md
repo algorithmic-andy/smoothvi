@@ -1,2 +1,2 @@
 # smoothvi
-Approximation geometry and optimization stability in variational inference with JAX.
+Approximation residual geometry and optimization stability in variational inference.
