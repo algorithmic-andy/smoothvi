@@ -141,15 +141,15 @@ producing twelve final approximation methods.
 
 Phase 1 constructs approximations to
 
-$$\[
-\log \Gamma(x),
-\]$$
+$$
+\log \Gamma(x)
+$$
 
 on
 
-\[
+$$
 x\in[1,2].
-\]
+$$
 
 Approximations are evaluated using
 
@@ -173,21 +173,21 @@ For each replication
 
 1. Sample
 
-$
+$$
 \theta\sim\text{Dirichlet}(\alpha)
-$
+$$
 
 2. Sample observations
 
-$
+$$
 x\sim\text{Multinomial}(N,\theta)
-$
+$$
 
 3. Compute the exact posterior
 
-$
+$$
 \lambda^\*= \alpha+x
-$
+$$
 
 4. Evaluate every approximation at the same posterior.
 
