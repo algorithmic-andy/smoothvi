@@ -293,7 +293,8 @@ Master's Research Paper
 University of Waterloo
 ```
 
-A Zenodo DOI will be added upon release.
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/51433965-0975-4b1e-ba9f-f1a677e815fe" />
+
 
 ---
 
