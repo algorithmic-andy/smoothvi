@@ -1,0 +1,182 @@
+[
+    {
+        "model_id": "polynomial_bernstein",
+        "loss_id": "least_squares",
+        "coefficients": [
+            1.5684120668879586e-12,
+            2.777389429553523e-12,
+            6.6168182044634705e-12,
+            1.1081746631447231e-11,
+            0.011704793341213882,
+            0.0011129929531197291
+        ],
+        "objective_value": 1.84965426251881e-05,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "polynomial_bernstein",
+        "loss_id": "duplication",
+        "coefficients": [
+            0.7179980220346954,
+            0.9616784855689721,
+            4.3313200914774086e-08,
+            6.497344057221355e-08,
+            1.163326199260517e-07,
+            3.848876612699836e-06
+        ],
+        "objective_value": 0.28689674246423313,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "polynomial_bernstein",
+        "loss_id": "identity_constrained",
+        "coefficients": [
+            0.08203577420892905,
+            0.06428729050043303,
+            0.09294700172829673,
+            0.09322898998108509,
+            0.1371191102849304,
+            9.248252686722136e-06
+        ],
+        "objective_value": 0.10143442559500039,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "polynomial_rational",
+        "loss_id": "least_squares",
+        "coefficients": [
+            0.005248035131433737,
+            2.2241491981489503e-10,
+            7.653438993671102e-10,
+            2.0877388706708189e-10,
+            2.924351316657692e-10,
+            2.2930599641313165e-09
+        ],
+        "objective_value": 2.1188995108988752e-05,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "polynomial_rational",
+        "loss_id": "duplication",
+        "coefficients": [
+            0.8103527093696005,
+            0.0,
+            0.0,
+            0.0,
+            4.183267647911645e-05,
+            0.0
+        ],
+        "objective_value": 0.29091033432988866,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "polynomial_rational",
+        "loss_id": "identity_constrained",
+        "coefficients": [
+            1.2970877277806991e-07,
+            0.19031509013854847,
+            1.7373001015563716e-07,
+            1.2572786821096749e-06,
+            4.6930030195291295e-07,
+            5.219233200071116e-07
+        ],
+        "objective_value": 0.10505719752068743,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_bernstein",
+        "loss_id": "least_squares",
+        "coefficients": [
+            1.4582018925679563e-10,
+            1.5309864487278446e-10,
+            1.1555606471702617e-10,
+            2.0572638037563706e-10,
+            1.4456008612384608e-10,
+            5.407951864100369e-12
+        ],
+        "objective_value": 0.0007101746659125401,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_bernstein",
+        "loss_id": "duplication",
+        "coefficients": [
+            0.6076161782232473,
+            0.8283060980928421,
+            0.0,
+            0.0,
+            0.0,
+            1.6979552368915372e-06
+        ],
+        "objective_value": 0.2874048816469681,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_bernstein",
+        "loss_id": "identity_constrained",
+        "coefficients": [
+            0.08204226138823911,
+            0.0678037469878901,
+            0.07193003910938112,
+            0.0609526207169177,
+            0.07225786957906702,
+            4.208916751608254e-06
+        ],
+        "objective_value": 0.10143488124182742,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_rational",
+        "loss_id": "least_squares",
+        "coefficients": [
+            4.850386758903369e-11,
+            4.06598643643008e-11,
+            4.252526109027599e-11,
+            2.554472189331136e-10,
+            2.069665550052946e-10,
+            1.2386369707684253e-11
+        ],
+        "objective_value": 0.0007101746646462389,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_rational",
+        "loss_id": "duplication",
+        "coefficients": [
+            0.6944815584428876,
+            0.0,
+            0.0,
+            0.0,
+            1.4227165002158917e-05,
+            4.49141012732763e-05
+        ],
+        "objective_value": 0.2909818676652969,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    },
+    {
+        "model_id": "stirling_rational",
+        "loss_id": "identity_constrained",
+        "coefficients": [
+            8.94636781323399e-09,
+            0.030822969471104966,
+            1.1540689904832035e-06,
+            1.6595689156240212e-07,
+            2.440691077687518e-06,
+            7.737827756315596e-07
+        ],
+        "objective_value": 0.10496496820657714,
+        "success": true,
+        "message": "Optimization terminated successfully."
+    }
+]
