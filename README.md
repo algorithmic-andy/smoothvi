@@ -173,21 +173,21 @@ For each replication
 
 1. Sample
 
-\[
+$
 \theta\sim\text{Dirichlet}(\alpha)
-\]
+$
 
 2. Sample observations
 
-\[
+$
 x\sim\text{Multinomial}(N,\theta)
-\]
+$
 
 3. Compute the exact posterior
 
-\[
+$
 \lambda^\*= \alpha+x
-\]
+$
 
 4. Evaluate every approximation at the same posterior.
 
@@ -208,7 +208,7 @@ This isolates the effect of the approximation itself.
 Clone the repository
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/algorithmic-andy/smoothvi.git
 ```
 
 Install
