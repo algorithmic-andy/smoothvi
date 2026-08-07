@@ -141,9 +141,9 @@ producing twelve final approximation methods.
 
 Phase 1 constructs approximations to
 
-\[
+$$\[
 \log \Gamma(x),
-\]
+\]$$
 
 on
 
