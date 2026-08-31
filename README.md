@@ -1,6 +1,6 @@
 # Identity-Constrained Approximation Framework
 
-*A general framework for constructing high-accuracy approximations of special functions using known functional identities.*
+*An Empirical Investigation of Approximation Quality in Bayesian Inference.*
 
 ---
 
