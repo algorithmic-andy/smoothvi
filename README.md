@@ -1,6 +1,6 @@
 # Identity-Constrained Approximation Framework
 
-*An Empirical Investigation of Approximation Quality in Bayesian Inference.*
+*A general framework for constructing high-accuracy approximations of special functions using known functional identities.*
 
 ---
 
@@ -8,7 +8,7 @@
 
 This repository accompanies the Master's Research Paper
 
-> **Identity-Constrained Approximation Framework for Special Functions**
+> **An Empirical Investigation of Approximation Quality in Bayesian Inference**
 
 The project introduces a general methodology for approximating special functions by incorporating known mathematical identities directly into the fitting process.
 
