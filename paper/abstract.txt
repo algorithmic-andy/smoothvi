@@ -1,0 +1,29 @@
+The Gamma function is a function that appears throughout statistics, particularly in
+Bayesian inference over Gamma, Beta, and Dirichlet distributions. Modern Bayesian algorithms
+such as variational inference repeatedly evaluate the logarithm of the Gamma
+function and its derivatives, making both approximation accuracy and derivative quality
+important considerations for computational efficiency. This paper introduces a framework
+for constructing identity-constrained approximations of special functions. In contrast to
+fitting an approximation through pointwise error minimization, the proposed framework
+incorporates functional identities directly into the optimization objective. These identities
+serve as structural constraints that enforce global properties of the target function beyond
+local accuracy. The framework is demonstrated using the logarithm of the Gamma function
+as a case study through Bohr-Mollerup characterization, Euler recurrence relation, and Legendre
+duplication identity. Three optimization objectives are investigated: least-squares
+fitting, duplication-identity fitting, and a composite identity-constrained objective that
+balances approximation accuracy with structural identity preservation. A second phase
+evaluates these approximations in Bayesian inference using a Dirichlet-Multinomial variational
+inference benchmark. Because the Dirichlet posterior parameters can be computed
+exactly, every approximation is evaluated at the exact posterior parameters, isolating approximation
+error from optimization error. Performance is measured using Evidence Lower
+Bound (ELBO) accuracy together with gradient accuracy, evaluated through direct access
+to Log-Gamma, Digamma, and Trigamma functions. Experimental results demonstrate
+that identity-constrained approximations consistently provide the strongest performance
+within variational inference. In contrast, least-squares approximations generally achieve
+superior accuracy over a bounded grid of points. These findings suggest that preserving
+functional identities can improve downstream optimization performance even when
+traditional approximation error is not minimized among available models. The proposed
+framework extends to transformed Gamma functions, multivariate Gamma-related functions,
+and other special functions characterized by functional identities, providing a general
+methodology for constructing structurally informed approximation for use in computational
+statistics.
